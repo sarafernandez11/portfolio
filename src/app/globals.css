@@ -2,20 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #fcfaf8;
+  --foreground: #171717;
+  --font1: #fcfaf8;
+  --font2: #36346e;
+  --primary: #d968ac;
 }
 
 body {
-  color: var(--foreground);
+  color: var(-font1);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sono", sans-serif;
 }
