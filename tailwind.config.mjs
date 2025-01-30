@@ -19,7 +19,7 @@ const config = {
       },
       fontFamily: {
         mono: ['Sono', 'Arial', 'sans-serif'],
-        serif: ['Petrona', 'serif'],
+        serif: ['Inria Serif', 'serif'],
       },
 
     },
